@@ -1,0 +1,191 @@
+#searchInput {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    top: 27px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    position: relative;
+}
+
+h4 {
+    position: relative;
+    left: 575px;
+
+}
+
+.item {
+    flex-direction: column;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgb(0, 0, 0);
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    margin: 20% auto;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px; right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.galaxy_s24_img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    left: 325px;
+    top: -20px;
+}
+
+.galaxy_s24 {
+    position: relative;
+    top: -40px;
+    left: 425px;
+}
+
+.galaxy_s24_p {
+    position: relative;
+    top: -45px;
+    left: 360px;
+}
+
+.galaxy_s24_button {
+    position: relative;
+    left: 475px;
+    top: -75px;
+    border-radius: 5px;;
+}
+
+.iPhone_15 {
+    position: relative;
+    left: 840px;
+    top: -491px;
+}
+
+.iPhone_15_img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    left:685px;
+    top: -471px;
+}
+
+.iPhone_15_p {
+    position: relative;
+    left: 790px;
+    top: -500px;
+}
+
+.iPhone_15_button {
+    position: relative;
+    left: 840px;
+    top: -500px;
+    border-radius: 5px;
+}
+
+.xiaomi_14 {
+    position: relative;
+    left: 1180px;
+    top: -960px;
+}
+
+.xiaomi_14_img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    left:1045px;
+    top: -942px;
+}
+
+.xiaomi_14_p {
+    position: relative;
+    left: 1140px;
+    top: -970px;
+}
+.iqooneo_9spro {
+    position: relative;
+    left: 1180px;
+    top: -945px;
+}
+
+.iqooneo_9spro_img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    left:1050px;
+    top: -930px;
+}
+
+.iqooneo_9spro_p {
+    position: relative;
+    left: 1140px;
+    top: -960px;
+}
+
+.poco_x7pro {
+    position: relative;
+    left: 840px;
+    top: -1397px;
+}
+
+.poco_x7pro_img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    left:689px;
+    top: -1380px;
+}
+
+.poco_x7pro_p {
+    position: relative;
+    left: 790px;
+    top: -1410px;
+}
+
+.oppo_x7ultra_img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    left:328px;
+    top: -1830px;
+}
+
+.oppo_x7ultra {
+    position: relative;
+    top: -1848px;
+    left: 450px;
+}
+
+.oppo_x7ultra_p {
+    position: relative;
+    top: -1859px;
+    left: 395px;
+}
