@@ -3,7 +3,7 @@
     width: 100%;
     max-width: 300px;
     margin-bottom: 10px;
-    top: 27px;
+    top: 48px;
     border: 1px solid rgb(44, 44, 44);
     border-radius: 5px;
     position: relative;
@@ -15,34 +15,53 @@ h4 {
 
 }
 
-.item {
-    flex-direction: column;
-}
-
 .modal {
     display: none;
     position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgb(0, 0, 0);
-    z-index: 1000;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
 }
 
 .modal-content {
-    background: white;
+    background-color: #fefefe;
+    margin: 15% auto;
     padding: 20px;
-    margin: 20% auto;
-    width: 300px;
-    border-radius: 10px;
+    border: 1px solid #888;
+    width: 80%; 
+    border-radius: 8px;
     position: relative;
-    text-align: center;
 }
 
 .close {
-    position: absolute;
-    top: 10px; right: 15px;
-    font-size: 24px;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
     cursor: pointer;
+}
+
+#modal-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#modal-description {
+    margin-bottom: 15px;
+}
+
+.item {
+    flex-direction: column;
 }
 
 .galaxy_s24_img {
@@ -52,26 +71,28 @@ h4 {
     border: 1px solid rgb(44, 44, 44);
     border-radius: 5px;
     left: 325px;
-    top: -20px;
+    top: 0px;
 }
 
 .galaxy_s24 {
     position: relative;
-    top: -40px;
+    top: -18px;
     left: 425px;
 }
 
 .galaxy_s24_p {
     position: relative;
-    top: -45px;
+    top: -26px;
     left: 360px;
 }
 
 .galaxy_s24_button {
     position: relative;
     left: 475px;
-    top: -75px;
-    border-radius: 5px;;
+    top: -32px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
 }
 
 .iPhone_15 {
@@ -101,6 +122,8 @@ h4 {
     left: 840px;
     top: -500px;
     border-radius: 5px;
+    background-color: green;
+    color: white;
 }
 
 .xiaomi_14 {
@@ -116,7 +139,7 @@ h4 {
     border: 1px solid rgb(44, 44, 44);
     border-radius: 5px;
     left:1045px;
-    top: -942px;
+    top: -943px;
 }
 
 .xiaomi_14_p {
@@ -124,10 +147,20 @@ h4 {
     left: 1140px;
     top: -970px;
 }
+
+.xiaomi_14_button {
+    position: relative;
+    left: 1190px;
+    top: -975px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
 .iqooneo_9spro {
     position: relative;
     left: 1180px;
-    top: -945px;
+    top: -946px;
 }
 
 .iqooneo_9spro_img {
@@ -142,14 +175,23 @@ h4 {
 
 .iqooneo_9spro_p {
     position: relative;
-    left: 1140px;
+    left: 1135px;
+    top: -955px;
+}
+
+.iqooneo_9spro_button {
+    position: relative;
+    left: 1205px;
     top: -960px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
 }
 
 .poco_x7pro {
     position: relative;
     left: 840px;
-    top: -1397px;
+    top: -1415px;
 }
 
 .poco_x7pro_img {
@@ -159,33 +201,51 @@ h4 {
     border: 1px solid rgb(44, 44, 44);
     border-radius: 5px;
     left:689px;
-    top: -1380px;
+    top: -1400px;
 }
 
 .poco_x7pro_p {
     position: relative;
     left: 790px;
-    top: -1410px;
+    top: -1430px;
 }
 
-.oppo_x7ultra_img {
+.poco_x7pro_button {
+    position: relative;
+    left: 840px;
+    top: -1435px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+.oppo_findx7ultra_img {
     position: relative;
     width: 350px;
     height: 350px;
     border: 1px solid rgb(44, 44, 44);
     border-radius: 5px;
     left:328px;
-    top: -1830px;
+    top: -1870px;
 }
 
-.oppo_x7ultra {
+.oppo_findx7ultra {
     position: relative;
-    top: -1848px;
+    top: -1890px;
     left: 450px;
 }
 
-.oppo_x7ultra_p {
+.oppo_findx7ultra_p {
     position: relative;
-    top: -1859px;
+    top: -1900px;
     left: 395px;
+}
+
+.oppo_findx7ultra_button {
+    position: relative;
+    left: 475px;
+    top: -1905px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
 }
