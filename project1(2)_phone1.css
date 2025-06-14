@@ -4,7 +4,7 @@
     height: 350px; 
     display: block;
     margin-left: auto;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     border-radius: 5px; 
 }
 
@@ -19,9 +19,22 @@
     position: relative;
 }
 
-h4 {
+body {
+    padding-right: 200px;
+}
+
+h1 {
     position: relative;
-    left: 575px;
+    text-align: center;
+    background-color: rgb(153, 80, 153);
+    color: white;
+}
+
+header {
+    position: relative;
+    background-color: rgb(153, 80, 153);
+    padding: 100px;
+    left: 100px;
 }
 
 .modal {
@@ -69,6 +82,30 @@ h4 {
     margin-bottom: 15px;
 }
 
+#modal-Ecran {
+    margin-bottom: 15px;
+}
+
+#modal-OnovlenyaEcrana {
+    margin-bottom: 15px;
+}
+
+#modal-procesor {
+    margin-bottom: 15px;
+}
+
+#modal-Camera {
+    margin-bottom: 15px;
+}
+
+#modal-ShvidkistZaryaski {
+    margin-bottom: 15px;
+}
+
+#modal-Batareya {
+    margin-bottom: 15px;
+}
+
 .item {
     flex-direction: column;
 }
@@ -81,6 +118,7 @@ h4 {
     border-radius: 5px;
     left: 325px;
     top: 0px;
+    background-color: white;
 }
 
 .galaxy_s24 {
@@ -200,6 +238,7 @@ h4 {
     border-radius: 5px;
     left:1050px;
     top: -930px;
+    background-color: white;
 }
 
 .iqooneo_9spro_p {
@@ -379,6 +418,7 @@ h4 {
     border-radius: 5px;
     left:1050px;
     top: -2882px;
+    background-color: white;
 }
 
 .huaweiPura_p60 {
